@@ -17,7 +17,7 @@ namespace julian
      * @param {Number} y The year for which to calculate the JDN.
      * @param {Number} m The month for which to calculate the JDN.
      * @param {Number} d The day for which to calculate the JDN.
-     * @param {Number} ct The calendar type (0 for Gregorian, 1 for Julian).
+     * @param {Number} ct The calendar type. ct = 0 for Julian, ct = 1 for British, and ct = 2 for Gregorian.
      * @returns {Number} The JDN for the given year, month, and day.
      */
     void ToJulian(const FunctionCallbackInfo<Value> &args)

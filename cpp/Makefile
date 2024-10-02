@@ -12,7 +12,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra -g
 
 # Define the source files
-SOURCES = tojdn.cpp
+SOURCES = jdn.cpp
 
 # Define the object files
 OBJECTS = $(SOURCES:.cpp=.o)

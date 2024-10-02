@@ -17,7 +17,7 @@ int secularDiff(int year)
  * @param year The year for which to calculate the JDN.
  * @param month The month for which to calculate the JDN.
  * @param date The day for which to calculate the JDN.
- * @param ct The century type (0 for Gregorian, 1 for Julian).
+ * @param ct ct The calendar type. ct = 0 for Julian, ct = 1 for British, and ct = 2 for Gregorian.
  * @return The JDN for the given year, month and day.
  */
 int jdn(int year, int month, int date, int ct)

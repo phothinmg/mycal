@@ -2,7 +2,7 @@
     "targets": [
         {
             "target_name": "mycal",
-            "sources": [ "cpp/tojdn.cpp" ]
+            "sources": [ "cpp/node-addon/tojdn.cpp" ]
         }
     ]
 }        
