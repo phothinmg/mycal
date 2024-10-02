@@ -1,11 +1,15 @@
 {
   "name": "mycal",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
   "scripts": {
     "build": "node-gyp configure build",
-    "config": "node-gyp configure",
     "rebuild": "node-gyp rebuild",
     "test": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=tests/lcov.info"
   },
