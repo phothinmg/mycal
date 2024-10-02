@@ -1,1 +1,0 @@
-cmd_Release/obj.target/mycal.node := g++ -o Release/obj.target/mycal.node -shared -pthread -rdynamic -m64  -Wl,-soname=mycal.node -Wl,--start-group Release/obj.target/mycal/cpp/tojdn.o -Wl,--end-group 
